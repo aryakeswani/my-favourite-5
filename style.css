@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-image:url(https://miro.medium.com/max/1200/1*AcYLHh0_ve4TNRi6HLFcPA.jpeg);
+    background-size: cover;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    border: dashed 10px;
+    border-radius: 30px;
+}
+
+.menu{
+    list-style: none;
+    font-family: cursive;
+    top: 10px;
+    right: 10px;
+    left: 20px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+.link{
+    float: left;
+    color: blue;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.link:hover{
+    background-color: floralwhite;
+        
+}
+#hobby{
+    margin-top:100px;
+}
